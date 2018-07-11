@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Calibre';
+  font-weight: 300;
+  src: url('Calibre-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Calibre/Calibre-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Calibre/Calibre-Light.woff') format('woff'),
+       url('../fonts/Calibre/Calibre-Light.ttf')  format('truetype'),
+       url('../fonts/Calibre/Calibre-Light.svg#Calibre-Light') format('svg');
+}
+@font-face {
+  font-family: 'Calibre';
+  font-weight: 500;
+  src: url('Calibre-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Calibre/Calibre-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Calibre/Calibre-Medium.woff') format('woff'),
+       url('../fonts/Calibre/Calibre-Medium.ttf')  format('truetype'),
+       url('../fonts/Calibre/Calibre-Medium.svg#Calibre-Medium') format('svg');
+}
+@font-face {
+  font-family: 'Calibre';
+  font-weight: 400;
+  src: url('Calibre-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Calibre/Calibre-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Calibre/Calibre-Regular.woff') format('woff'),
+       url('../fonts/Calibre/Calibre-Regular.ttf')  format('truetype'),
+       url('../fonts/Calibre/Calibre-Regular.svg#Calibre-Regular') format('svg');
+}
