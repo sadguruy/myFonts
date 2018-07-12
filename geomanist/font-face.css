@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 800;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-black-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-black-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-black-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 700;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-bold-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 500;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-book-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-book-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-book-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 200;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-extralight-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-extralight-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-extralight-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-extralight-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-extralight-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 300;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-light-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 600;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-medium-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 400;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-regular-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist';
+  font-style: normal;
+  font-weight: 100;
+  src: url('geomanist.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-thin-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-thin-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-thin-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-thin-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-thin-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'geomanist-ultra';
+  font-style: normal;
+  font-weight: 800;
+  src: url('geomanist-ultra.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist/geomanist-ultra-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist/geomanist-ultra-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist/geomanist-ultra-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist/geomanist-ultra-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist/geomanist-ultra-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+ font-family:futura;
+ src:url(https://use.typekit.net/af/acc301/00000000000000000001008f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/acc301/00000000000000000001008f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/acc301/00000000000000000001008f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");
+ font-weight:500;
+ font-style:normal;
+}
+@font-face {
+ font-family:futura;
+ src:url(https://use.typekit.net/af/385f0b/00000000000000003b9af1e4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/385f0b/00000000000000003b9af1e4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/385f0b/00000000000000003b9af1e4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+ font-weight:700;
+ font-style:normal;
+}
+@font-face {
+ font-family:futura-pt;
+ src:url(https://use.typekit.net/af/acc301/00000000000000000001008f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/acc301/00000000000000000001008f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/acc301/00000000000000000001008f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");
+ font-weight:500;
+ font-style:normal;
+}
+@font-face {
+ font-family:futura-pt;
+ src:url(https://use.typekit.net/af/385f0b/00000000000000003b9af1e4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/385f0b/00000000000000003b9af1e4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/385f0b/00000000000000003b9af1e4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+ font-weight:700;
+ font-style:normal;
+}
+
+
