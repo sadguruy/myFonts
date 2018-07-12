@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'carnas';
+  font-style: normal;
+  font-weight: 600;
+  src: url('carnas_bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('carnas_bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('carnas_bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('carnas_bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('carnas_bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('carnas_bold-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'carnas';
+  font-style: normal;
+  font-weight: 500;
+  src: url('carnas_medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('carnas_medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('carnas_medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('carnas_medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('carnas_medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('carnas_medium-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'carnas';
+  font-style: normal;
+  font-weight: 400;
+  src: url('carnas_regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('carnas_regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('carnas_regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('carnas_regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('carnas_regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('carnas_regular-webfont.svg#Calibre-Light') format('svg'); /* Legacy iOS */
+}
